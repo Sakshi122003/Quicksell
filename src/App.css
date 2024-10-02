@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f5f7;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.display-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.dropdown div {
+  margin-bottom: 10px;
+}
+
+.dropdown label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.dropdown select {
+  width: 100%;
+  padding: 5px;
+}
+
+.kanban-board {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.column {
+  min-width: 250px;
+  background-color: #f4f5f7;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.column-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.group-icon {
+  margin-right: 10px;
+}
+
+.group-icon img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.ticket-count {
+  margin-left: 5px;
+  color: #6b6f76;
+}
+
+.column-actions {
+  margin-left: auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.ticket-id {
+  color: #6b6f76;
+  font-size: 14px;
+}
+
+.user-avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+h3 {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.tag {
+  background-color: #f4f5f7;
+  color: #6b6f76;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.urgent { color: #fc7840; }
+.high { color: #f8d254; }
+.medium { color: #67c2b2; }
+.low { color: #9aa5b1; }
+.no-priority { color: #6b6f76; }
+
+.todo { color: #fc7840; }
+.in-progress { color: #f8d254; }
+.done { color: #5cb85c; }

@@ -1,0 +1,17 @@
+.kanban-board {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+  }
+  
+  .planned { color: #5e6ad2; }
+  .todo { color: #f2c94c; }
+  .in-progress { color: #5e6ad2; }
+  .done { color: #5cb85c; }
+  .cancelled { color: #e64759; }
+  
+  .urgent { color: #e64759; }
+  .high { color: #f2994a; }
+  .medium { color: #f2c94c; }
+  .low { color: #5cb85c; }
+  .no-priority { color: #bdbdbd; }
